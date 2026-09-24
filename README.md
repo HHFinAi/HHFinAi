@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets"><b>Explore the climate agent</b></a> &nbsp; · &nbsp;
   <a href="#selected-research-projects"><b>Research projects</b></a> &nbsp; · &nbsp;
-  <a href="https://github.com/hh-health-AI"><b>Healthcare research</b></a>
+  <a href="https://github.com/hh-health-AI"><b>sector research</b></a>
 </p>
 
 <blockquote>
@@ -95,7 +95,7 @@ Working on sustainable finance, public-market research or AI-assisted analysis? 
 
 <p align="center">
   <a href="https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets/issues"><b>Start a project discussion</b></a> &nbsp; · &nbsp;
-  <a href="https://github.com/hh-health-AI"><b>Explore my healthcare research</b></a>
+  <a href="https://github.com/hh-health-AI"><b>Explore my sector equity research</b></a>
 </p>
 
 ---
