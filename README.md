@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets"><b>Explore the climate agent</b></a> &nbsp; · &nbsp;
   <a href="#selected-research-projects"><b>Research projects</b></a> &nbsp; · &nbsp;
-  <a href="https://github.com/hh-health-AI"><b>sector research</b></a>
+  <a href="https://github.com/hh-health-AI"><b>Sector research</b></a>
 </p>
 
 <blockquote>
