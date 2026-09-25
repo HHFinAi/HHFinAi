@@ -1,260 +1,152 @@
-<!-- Profile redesign: original graphics and copy; layout inspired by github.com/flycran. -->
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Sustainable Finance AI — climate investing, fundamental research and AI. Sources to scenarios to valuation to human judgment." />
+  <img src="./assets/header.svg" width="100%" alt="HHFinAi — institutional sustainable finance AI research workflows." />
+</p>
+
+<h1 align="center">HHFinAi — Institutional Sustainable Finance AI</h1>
+
+<p align="center">
+  <b>Open research agents and analyst workflows connecting sustainability evidence to financial materiality, security valuation, portfolio decisions, impact and stewardship.</b>
 </p>
 
 <p align="center">
-  <a href="https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets"><b>Explore the climate agent</b></a> &nbsp; · &nbsp;
-  <a href="#research-workflows"><b>Workflows</b></a> &nbsp; · &nbsp;
-  <a href="#selected-research-projects"><b>Research projects</b></a> &nbsp; · &nbsp;
-  <a href="https://github.com/hh-health-AI"><b>Sector research</b></a>
+  <b>Institutional-quality buy-side research · Tradable decision support · Traceable evidence · Auditable workflows · Human judgment</b>
 </p>
 
-<blockquote>
-  <p align="center"><b>From climate and company evidence to explicit investment assumptions.</b><br />AI should improve research coverage without obscuring sources, uncertainty or accountability.</p>
-</blockquote>
+> **Research philosophy:** AI should expand research coverage without obscuring sources, assumptions, uncertainty, legal boundaries or analyst accountability. “Institutional-quality” describes process design and review controls—not independent certification, guaranteed compliance or investment performance.
 
-## About me
-
-I build **AI-assisted research workflows, analyst skills and public-data tools** for sustainable investing and fundamental equity research. My focus is the connection between evidence, business economics, valuation and human investment judgment.
-
-- **Research:** Climate investing, sustainable finance, growth equities and company earnings.
-- **Methods:** Competitive analysis, cash-flow valuation, scenario analysis and evidence-based investment theses.
-- **Workflow design:** Reusable agent instructions, structured handoffs, traceable research records and human review.
-
-## Start here: Climate Investment AI Agent
-
-<table>
-<tr><td>
-<h3><a href="https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets">Climate Investment AI Agent</a></h3>
-<p><b>Connect climate risk to equity valuation and bond credit analysis.</b></p>
-<p>A Python workflow engine with 20 specialist roles and seven instrument-aware routes, designed to organize climate research while keeping evidence references, assumptions, revisions and human review inspectable.</p>
-<p><b>Core value:</b> Inspect the evidence and assumptions behind the conclusion—not just the generated narrative.</p>
-<p><code>Evidence</code> → <code>Climate scenarios</code> → <code>Financial transmission</code> → <code>Equity / credit</code> → <code>Human review</code></p>
-<p><a href="https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets/blob/main/docs/EVIDENCE_AUDIT.md"><b>Inspect the evidence layer →</b></a> &nbsp; · &nbsp; <a href="https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets#run-the-local-tests-and-synthetic-demo">Run the synthetic demo →</a></p>
-</td></tr>
-</table>
-
-**Scope:** The engine orchestrates and validates research artifacts. An external AI host or human performs the research. There is no embedded LLM, live market feed, broker connection or autonomous trading. Reviewable records are not independent audit certification.
-
-<!-- workflow-charts:start -->
-## Research workflows
-
-### Climate risk → equity valuation and bond credit
-
-The [Climate Investment AI Agent](https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets#climate-risk-to-equity-valuation-and-bond-credit-analysis) connects mandate and evidence to climate analysis, instrument-specific underwriting, portfolio review and a human research decision.
+## Sustainable-finance research stack
 
 ```mermaid
 flowchart TD
-    M[Mandate and instrument scope] --> E[Evidence and entity boundaries]
-    E --> S[Science and materiality]
-    E --> D[Policy and disclosure context]
-    E --> C[Emissions and targets]
-    S --> P[Physical risk and adaptation]
-    S --> T[Transition and opportunities]
-    D --> T
-    C --> T
-    S --> Q[Scenarios and model risk]
-    D --> Q
-    P --> F[Financial transmission and double-counting check]
-    T --> F
-    Q --> F
-    F --> EQ[Equity valuation]
-    F --> CB[Corporate credit]
-    F --> SB[Sovereign and municipal debt]
-    F --> SC[Structured credit]
-    F --> LB[Labelled-debt integrity]
-    EQ --> PF[Portfolio and constraint review]
-    CB --> PF
-    SB --> PF
-    SC --> PF
-    LB --> PF
-    PF --> ST[Stewardship and monitoring plans]
-    ST --> RT[Independent challenge]
-    RT --> IC[Investment memo]
-    IC --> H[Human research decision]
+    E[Primary evidence and mandate] --> M[Financial materiality]
+    E --> T[Transition credibility]
+    E --> N[Nature and biodiversity]
+    E --> H[Human rights and social value chain]
+    E --> C[Carbon accounting and attribution]
+    E --> B[Bond and credit diligence]
+    E --> S[Sovereign and social-impact finance]
 
-    %% Profile presentation only; source workflow labels and connections are unchanged.
-    classDef default fill:#ecfdf5,stroke:#059669,color:#052e16
-    classDef decision fill:#065f46,stroke:#065f46,color:#ffffff
-    class H decision
+    M --> V[Valuation and investment case]
+    T --> V
+    N --> V
+    H --> V
+    B --> V
+    S --> V
+
+    C --> P[Portfolio and mandate review]
+    V --> P
+    P --> ST[Stewardship and controversy]
+    P --> I[Impact and blended finance]
+    ST --> IC[Investment committee / human review]
+    I --> IC
 ```
 
-[**Explore the source workflow and implementation →**](https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets#climate-risk-to-equity-valuation-and-bond-credit-analysis)
+## Flagship agents
 
-### Sustainable investment research
+### Security and issuer underwriting
 
-The second workflow comes from the **Sustainable Investment Agent for SFDR Article 8 & 9 Funds**. Expand it to follow source inputs through integration, sustainability assessment, stewardship, impact and reporting.
+| Agent | Investment question |
+|---|---|
+| [**Sustainability-to-Financial-Materiality Analysis**](https://github.com/HHFinAi/Sustainability-to-Financial-Materiality-Analysis) | Which sustainability issues change revenue, margins, cash flow, credit or valuation—and by how much? |
+| [**Transition-Plan Credibility Assessment**](https://github.com/HHFinAi/Transition-Plan-Credibility-Assessment) | Are issuer targets supported by comparable boundaries, funded implementation and observable delivery? |
+| [**Sustainable Bond Diligence Agent**](https://github.com/HHFinAi/Sustainable-Bond-Diligence-Agent) | Does a labelled or transition bond combine acceptable underlying credit, credible sustainability claims and investable relative value? |
+| [**Labelled-Bond and Sustainability-Linked-Bond Diligence**](https://github.com/HHFinAi/Labelled-Bond-and-Sustainability-Linked-Bond-Diligence) | What is the specific bond’s credit, contractual, KPI, label and relative-value case? |
+| [**Climate Investment AI Agent**](https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets) | How do physical and transition risks transmit into equity valuation and bond credit? |
 
-<details>
-<summary><b>View the full sustainable-investment workflow</b></summary>
+### Portfolio, mandate and ownership
 
-```mermaid
-flowchart TD
-    subgraph Sources["Primary Sources"]
-        S1[Company filings<br/>10-K · 20-F · Annual Report]
-        S2[Sustainability reports<br/>CSRD ESRS · TCFD · TNFD]
-        S3[Regulatory disclosures<br/>SFDR · UK SDR · Art 29 LEC]
-        S4[ESG vendor data<br/>MSCI · Sustainalytics · ISS · S&P]
-        S5[NGO and benchmark data<br/>CA100+ · TPI · WBA · CHRB]
-        S6[Climate and nature data<br/>PCAF · CBF · SBTi · TPI]
-    end
+| Agent | Investment question |
+|---|---|
+| [**Portfolio Carbon Accounting and Attribution**](https://github.com/HHFinAi/Portfolio-Carbon-Accounting-and-Attribution) | What emissions are financed, how complete is the inventory, and why did it change? |
+| [**Sustainable-Investment Mandate Assessment**](https://github.com/HHFinAi/Sustainable-Investment-Mandate-Assessment) | Does evidence support the stated mandate under the versioned prospectus and applicable rulebook, and where is the result unknown? |
+| [**Stewardship and Controversy Assessment**](https://github.com/HHFinAi/Stewardship-and-Controversy-Assessment) | What is evidenced, what change is sought, and what escalation or investment review is warranted? |
+| [**Sustainable Investment Agent for SFDR Article 8 & 9 Funds**](https://github.com/HHFinAi/Sustainable-Investment-Agent-for-SFDR-Article-8-9-Funds) | How can sustainable-investment research, binding elements, stewardship, impact and disclosure be organized into repeatable workflows? |
 
-    subgraph PreInv["Pre-Investment Integration"]
-        W1[01-04 Materiality · Vendor reconciliation<br/>Exclusions · IC pre-read]
-    end
+### Nature, social impact and development finance
 
-    subgraph SFDR["SFDR Binding Elements"]
-        W2[05-07 Art 2-17 SI test · Art 8 monitor<br/>Art 9 stress test]
-        W3[08-09 EU Taxonomy alignment · DNSH]
-        W4[10-11 PAI issuer dossier · Entity Art 4 statement]
-    end
+| Agent | Investment question |
+|---|---|
+| [**Nature and Biodiversity Investment Agent**](https://github.com/HHFinAi/Nature-and-Biodiversity-Investment-Agent) | How do ecosystem dependencies, impacts and outcomes connect to financial underwriting without inventing a universal biodiversity score? |
+| [**Human-Rights and Social-Value-Chain Diligence**](https://github.com/HHFinAi/Human-Rights-and-Social-Value-Chain-Diligence) | Who may be harmed, how severe is the risk, and what prevention, remedy and investment response is evidenced? |
+| [**Impact and Blended-Finance Assessment**](https://github.com/HHFinAi/Impact-and-Blended-Finance-Assessment) | What outcomes and financing are plausibly additional, who bears risk, and is the structure commercially and developmentally defensible? |
+| [**Sovereign and Social-Impact Finance Agent**](https://github.com/HHFinAi/Sovereign-and-Social-Impact-Finance-Agent) | How do sovereign repayment, contractual recourse, fiscal economics, additionality and social outcomes fit together? |
 
-    subgraph Analytics["Thematic & Portfolio Analytics"]
-        W5[12-15 TCFD/IFRS S2 · WACI · PCAF · ITR]
-        W6[16-18 TNFD LEAP · Biodiversity footprint · EUDR]
-        W7[19-21 UNGP salient · HRDD · Living wage/JT]
-        W8[22-23 SFDR good governance · EM controlled companies]
-    end
+## What “institutional-quality” means here
 
-    subgraph Active["Active Ownership"]
-        W9[24-27 SMART engagement · Log · Collaborative · Escalation]
-        W10[28-30 Vote rationale · Say-on-Climate · Shareholder proposals]
-        W11[31-32 Controversy 72h memo · Divest vs engage]
-    end
+The repositories are designed around inspectable research-process controls:
 
-    subgraph Impact["Impact & Client"]
-        W12[33-36 Theory of Change · IMP 5D · SDG · Avoided emissions]
-        W13[37-39 Impact report · Factsheet · Engagement summary]
-        W14[40-41 Consultant DDQ · RFP narrative]
-    end
+- **Evidence lineage:** source IDs, dates, document locations and entity/instrument boundaries.
+- **Financial transmission:** sustainability issues must connect to explicit cash-flow, credit, valuation or portfolio assumptions when an investment conclusion is made.
+- **Reproducible calculations:** deterministic helpers expose inputs, units and assumptions rather than hiding arithmetic in prose.
+- **Missing-data discipline:** unknown or unverified evidence remains unknown; material gaps can block approval.
+- **Revision control:** upstream changes can invalidate downstream analysis and prior review.
+- **Independent challenge:** counterarguments, thesis breakers and unresolved issues remain visible.
+- **Human accountability:** agents support research decisions; they do not self-approve investments or execute trades.
 
-    subgraph PortReg["Portfolio & Regulatory"]
-        W15[42-44 NGFS Phase V · NZIF 2-0 · S&G KPIs]
-        W16[45-46 EM data-gap · Commodity-exporter transition]
-        W17[47-49 SFDR Annex IV/V · UK SDR · Art 29 LEC]
-        W18[50-52 Energy Paris · Healthcare access · Tech AI governance]
-    end
+## Tradable research, not sustainability commentary
 
-    subgraph Outputs["Institutional Deliverables"]
-        O1[IC pre-reads and SI sign-off sheets]
-        O2[SFDR periodic disclosure · UK SDR stack<br/>Art 29 LEC report]
-        O3[Stewardship Report · Climate Report<br/>Impact Report · Engagement summary]
-    end
+The objective is to move from:
 
-    S1 --> W1
-    S1 --> W2
-    S2 --> W5
-    S2 --> W6
-    S3 --> W4
-    S3 --> W17
-    S4 --> W1
-    S4 --> W2
-    S5 --> W7
-    S5 --> W9
-    S6 --> W5
-    S6 --> W15
-
-    W1 --> W2
-    W2 --> W3
-    W3 --> W4
-    W4 --> W5
-    W5 --> W8
-    W6 --> W8
-    W7 --> W8
-    W8 --> W9
-    W9 --> W10
-    W10 --> W11
-    W11 --> W12
-    W12 --> W13
-    W13 --> W14
-    W14 --> W15
-    W15 --> W16
-    W16 --> W17
-    W17 --> W18
-
-    W2 --> O1
-    W4 --> O2
-    W17 --> O2
-    W9 --> O3
-    W12 --> O3
-    W13 --> O3
-
-    %% Profile presentation only; source workflow labels and connections are unchanged.
-    classDef default fill:#ecfdf5,stroke:#059669,color:#052e16
-    classDef output fill:#065f46,stroke:#065f46,color:#ffffff
-    class O1,O2,O3 output
+```text
+Sustainability disclosure
+        ↓
+Material issue
+        ↓
+Financial transmission
+        ↓
+Security / portfolio implication
+        ↓
+Valuation, relative value or risk
+        ↓
+Catalyst / monitoring trigger
+        ↓
+Human investment decision
 ```
 
-[**Explore the source workflow and prompt library →**](https://github.com/HHFinAi/Sustainable-Investment-Agent-for-SFDR-Article-8-9-Funds#workflow-coverage)
+A sustainability claim is not treated as a trade thesis by itself. Likewise, a credible label, target or impact narrative does not substitute for credit quality, valuation, liquidity or portfolio constraints.
 
-</details>
+## Repository design
 
-<sub>Reproduced from the projects' workflow documentation on 24 September 2026, with profile-matched colors. Labels and connections are preserved. These copies do not automatically sync with future repository changes; the diagrams are not a certification of regulatory compliance.</sub>
-<!-- workflow-charts:end -->
+Across the agent suite, repositories generally include:
 
-## Selected research projects
+```text
+README.md          → answer-first overview
+SKILL.md           → agent/skill entry point
+AGENTS.md          → research-stage contracts
+WORKFLOW.md        → orchestration and handoffs
+sf_agent/          → executable workflow and calculations
+schemas/           → structured input/output contracts
+skills/            → bounded analytical capabilities
+prompts/           → specialist research instructions
+references/        → methodology and source controls
+examples/          → synthetic worked examples
+tests/             → regression and control tests
+.github/workflows/ → GitHub CI validation
+```
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/HHFinAi/Sustainable-Investment-Agent-for-SFDR-Article-8-9-Funds">Sustainable Investment Workflows</a></h3>
-<p><b>Bring structure to sustainable investment research.</b></p>
-<p>A library of 52 prompts across 18 categories for workflows associated with SFDR Article 8 and 9 strategies, including materiality, climate, stewardship, impact and disclosure research.</p>
-<p><code>Sustainable finance</code> <code>Research prompts</code></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/HHFinAi/Institutional-Growth-Equity-Skills">Institutional Growth Equity Skills</a></h3>
-<p><b>From business quality to valuation and deliverables.</b></p>
-<p>A bundle of 16 skills spanning competitive positioning, growth research, financial modeling, valuation and research-document production.</p>
-<p><code>Growth equities</code> <code>DCF</code> <code>Scenarios</code></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/HHFinAi/earnings-analysis">Earnings Analysis</a></h3>
-<p><b>Go beyond the headline beat or miss.</b></p>
-<p>Parse filings, releases and transcripts; compare results with expectations; diagnose the drivers; and translate changes into the forward research thesis.</p>
-<p><code>Filings</code> <code>Guidance</code> <code>Earnings quality</code></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/HHFinAi/claude-equity-research-skills">Claude Equity Research Skills</a></h3>
-<p><b>Make the fundamental research process reusable.</b></p>
-<p>Seven composable skills covering growth, competition, earnings, supply chains, corporate networks, investment themes and research reports.</p>
-<p><code>Agent skills</code> <code>Fundamental analysis</code></p>
-</td>
-</tr>
-</table>
+## Core research domains
 
-## Tools and research craft
+**Investment analysis:** Sustainable Finance · Climate Investing · Fixed Income · Credit Analysis · Fundamental Equity · Sovereign Debt · Impact Investing
 
-<p align="center">
-  <img src="./assets/toolkit.svg" width="100%" alt="Python for public-data tooling; Markdown for agent instructions; Git for versioned research; GitHub for open collaboration." />
-</p>
+**Sustainability research:** Transition Finance · Carbon Accounting · Nature & Biodiversity · Human Rights · Stewardship · SFDR / Sustainable Mandates · Blended Finance
 
-**Investment research:** `Climate Risk` · `Sustainable Investing` · `Growth Equity` · `Credit Analysis` · `Earnings`
+**Research infrastructure:** Python · Agent Skills · Structured Evidence · Deterministic Calculations · Workflow Validation · Human Review
 
-**Research infrastructure:** `Python` · `Agent Skills` · `Structured Evidence` · `Workflow Validation` · `Human Review`
+## Other research infrastructure
 
-## How I approach the work
+My general investment-research work is available in:
 
-**Start with primary sources.** Use company disclosures, filings and documented research inputs—not unsupported narratives.
+- [**Institutional Growth Equity Skills**](https://github.com/HHFinAi/Institutional-Growth-Equity-Skills)
+- [**Sector Equity Agent**](https://github.com/HHFinAi/Sector-equity-agent)
+- [**Earnings Analysis**](https://github.com/HHFinAi/earnings-analysis)
+- [**Claude Equity Research Skills**](https://github.com/HHFinAi/claude-equity-research-skills)
 
-**Connect the evidence to economics.** Identify the cash-flow, capital-cost, credit or valuation assumption that changes.
+Sector-specific healthcare and life-sciences research is maintained separately at [**hh-health-AI**](https://github.com/hh-health-AI).
 
-**Make uncertainty visible.** Keep scenarios, sensitivities, missing information and disconfirming evidence explicit.
+## Use and limitations
 
-**Keep the analyst accountable.** Automation supports judgment; it does not certify conclusions, guarantee alpha or replace professional review.
-
-## Connect
-
-Working on sustainable finance, public-market research or AI-assisted analysis? Project issues and pull requests are welcome.
-
-<p align="center">
-  <a href="https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets/issues"><b>Start a project discussion</b></a> &nbsp; · &nbsp;
-  <a href="https://github.com/hh-health-AI"><b>Explore my sector equity research</b></a>
-</p>
+These repositories are research and educational infrastructure. They are not investment advice, broker systems, autonomous trading agents, independent audit opinions or certifications of regulatory compliance. Most workflows require a human or external AI host to retrieve authorized evidence and perform substantive research. Inspect each repository’s methodology, validation scope and limitations before relying on its output.
 
 ---
 
-<p align="center"><sub>Research and educational tools—not investment advice or a certification of regulatory compliance.<br />Prompt libraries require current-source verification; inspect each repository's implementation and limitations.</sub></p>
+<p align="center"><b>Evidence → economics → valuation → portfolio decision → human judgment</b></p>
