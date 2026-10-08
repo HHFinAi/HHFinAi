@@ -26,7 +26,7 @@ Use clear labels: **real-issuer research**, **historical case**, **illustrative 
 
 ## AI assistance and human accountability
 
-AI may assist retrieval, drafting, structuring, implementation and testing. The October 2026 portfolio update and Microsoft cases were prepared with AI assistance under Ed's brief. Their records do not claim independent human verification, issuer engagement or research approval where none is recorded.
+AI may assist retrieval, drafting, structuring, implementation and testing. The October 2026 portfolio updates and research cases were prepared with AI assistance under Ed's brief. Their records do not claim independent human verification, issuer engagement or research approval where none is recorded.
 
 The analyst's substantive contribution should be inspectable in the investment question, source challenge, counterfactual, assumptions, contrary case and decision criteria. Do not equate generated prose with analyst validation. Before investment use, a responsible human must review the evidence, model and material unresolved questions.
 
@@ -42,9 +42,9 @@ These are handling instructions, not claims that the repository provides encrypt
 
 ## Evaluation and failure reporting
 
-Separate arithmetic tests, schema/metadata checks, LLM extraction evaluation, human research review and investment-performance testing. The Microsoft release has 13 case-specific unit tests and 48 engineered metadata cases. They establish selected deterministic behavior, not measured LLM accuracy, empirical avoided losses, productivity improvement or investment alpha.
+Separate arithmetic tests, schema/metadata checks, LLM extraction evaluation, human research review and investment-performance testing. The original Microsoft release had 13 case-specific unit tests and 48 engineered metadata cases; later model tests extend those software checks. They establish selected deterministic behavior. The separate October 8 source-extraction comparison archives actual assistant-session outputs and descriptive error counts, without establishing empirical avoided losses, productivity improvement or investment alpha.
 
-An empirical comparison should retain held-out passages, independently reviewed labels where possible, baseline outputs, disagreements, abstentions and review time. Publish observed failures and corrections; do not invent accuracy or time-saving statistics. A green CI badge is not scientific, commercial or legal validation.
+An empirical comparison should retain frozen passages, prompts, label provenance, baseline outputs, disagreements and abstentions. Record review time only when actually measured. The October 8 labels were prepared and reviewed by separate assistant sessions; eight canonical fiscal/calendar-period labels differed. Both reference sets and their scoring sensitivity remain visible; independent human adjudication was not performed. Exact model revision and human review time are unavailable. Selection was prospective to the two prompts, not evidence of exclusion from model training. Publish observed failures and corrections; do not invent accuracy or time-saving statistics. A green CI badge is not scientific, commercial or legal validation.
 
 ## Stewardship
 
