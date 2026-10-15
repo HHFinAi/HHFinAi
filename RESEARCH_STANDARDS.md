@@ -12,11 +12,15 @@ Do not relabel group capex as AI-only capex, water withdrawals as consumption, e
 
 Conflicting passages remain visible until reconciled. A source citation does not by itself prove textual support. The Microsoft case includes examples of attribution and denominator challenges from the methodological readings; it does not silently replace them with alternative estimates.
 
+For project trackers, distinguish site, campus and phase; retain observation dates, stale forecasts and unresolved identity matches. A company completion statement is not a verified permit file. Do not sum incomplete records into a pipeline or replace unknown capacity with zero. Public-data extracts should preserve source vintage, cell/section locators and file hashes when bytes were actually obtained; unavailable raw data must remain an explicit reconstruction limit.
+
 ## Financial analysis
 
 Specify the counterfactual, ownership boundary and economic mechanism before choosing a model. Reconcile revenue, margin, capex, taxes, working capital and financing definitions. Distinguish group cash-flow measures from incremental project FCFF and distinguish a limited discounted cash-flow window from full project NPV.
 
 Use sensitivities and break-even thresholds when probabilities or commercial assumptions cannot be calibrated. Do not count protected profit and enabled growth twice, apply a separate sustainability premium to benefits already in cash flows, or convert an ESG score mechanically into WACC. A technical or environmental improvement does not establish investment attractiveness.
+
+Separate economic replacement, book depreciation and tax allowances. Declare cash-flow/discount-rate conventions, capital timing, terminal recovery and the common comparison horizon. Challenge replacement-boundary discontinuities and show which counterparty owns the assets and bears the costs before scaling project cash flows to issuer equity.
 
 ## Information dates and research status
 

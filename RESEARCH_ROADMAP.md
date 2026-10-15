@@ -1,6 +1,6 @@
 # Research development and open questions
 
-**Updated 8 October 2026.** This is a development record, not a scheduled-delivery promise or a claim that missing issuer evidence has been obtained.
+**Updated 16 October 2026.** This is a development record, not a scheduled-delivery promise or a claim that missing issuer evidence has been obtained.
 
 [Selected research](README.md) · [Research standards](RESEARCH_STANDARDS.md)
 
@@ -8,6 +8,7 @@
 
 | Workstream | Published contribution | Remaining evidence gate |
 |---|---|---|
+| AI infrastructure delivery and capital recovery | [Original October 16 case](https://github.com/HHFinAi/Sustainability-to-Financial-Materiality-Analysis/tree/main/examples/ai-infrastructure): common-horizon grid/gas scenarios, hardware replacement and tax-life separation, cancellation/recovery, conditional operational losses, dated FY2026 issuer scale, 21 EIA observations and six project/phase records. Supporting stewardship, nature, transition and climate handoffs are linked. | Site ownership, phase capacity, permits, tariffs, customer commitments, real replacement/resale evidence and operational loss data. LBNL raw workbook remains inaccessible; summary arithmetic is not independent raw-data reconstruction. |
 | Heidelberg Brevik | Finite-life commercial cash waterfall; capital-recovery stresses; conditional enterprise-to-equity bridge and reverse premium hurdles. Original five-year outputs and 25 February 2026 cutoff retained. | Executed grant economics, dated retained capital and receipts, realized commercial premium, usable tax shields and exact historical equity quote. Actual lifecycle IRR and market upside remain unestablished. |
 | EIB EuGB 2037 | Dated clean/dirty cash flows, curve and duration matching, carry, roll-down, funding, trading costs and entry-premium hurdle. Historical exchange markings are registered but excluded from executable prices. | Issue-specific signed terms and synchronized executable historical bid/ask quotes. Illustrative curves cannot establish observed relative value. Original 16 October 2025 cutoff retained. |
 | Microsoft infrastructure | Separate avoided-disruption and added-capacity routes, hardware replacement, working capital and explicit unavailable/delayed tax-deduction cases. Original 4 October baseline retained within the 8 October extension. | Site/design-specific capital, operating costs, loss frequency, protected contribution and proof that water design binds profitable capacity. Scenario breakpoints are not issuer forecasts. |
@@ -23,9 +24,9 @@ The empirical comparison assesses supplied source fragments and planted claim er
 |---|---|
 | Independent case review | Documented human review of sources, assumptions and material objections, separate from software tests and assistant label review. |
 | Market and contract closure | Replace model assumptions with verified contractual and matched historical market evidence, preserving the original decision dates. |
-| Microsoft financial and asset refresh | Verify current deployment and financial baseline; obtain design-specific economics before claiming calibrated returns. |
+| Microsoft financial and asset refresh | FY2026 financial context and dated project statements are now registered. Next verify named phase permits, delivery terms, current shares/market expectations and design-specific economics before claiming calibrated returns. |
 | Adaptation comparison | Compare an enabler such as Quanta with an adapter such as TSMC using primary evidence, without unsupported adaptation-revenue or water-loss estimates. |
-| Dated follow-up note | Preserve original evidence cutoffs and show which newly available evidence changes assumptions or judgment. |
+| Dated follow-up note | The October 16 update preserves the earlier cases and identifies changed evidence/model boundaries. Future updates need newly verified observations, not a silent rewrite of historical conclusions. |
 
 A proposed issuer is a research candidate, not a security recommendation. Heidelberg CCS is mitigation/transition economics; it is not relabelled as physical adaptation. Proposed stewardship requests remain unsent until an actual engagement is authorized and recorded.
 
