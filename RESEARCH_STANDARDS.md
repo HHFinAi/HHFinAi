@@ -61,3 +61,7 @@ The 21 October 2026 operating-hypothesis register starts with three pending outc
 A proposed request is not an actual engagement. Receipt is not completion; a meeting is not an outcome; a policy statement is not proof of operating change. Attribute only the contribution supported by evidence. Missing public detail does not establish misconduct.
 
 The Microsoft milestone ledger begins with no sent requests, issuer responses, agreed deadlines or observed outcomes. Any later status requires dated evidence and review rationale. No automatic email, vote, divestment or investment action follows from a status label.
+
+## Responsible AI policy
+
+The [responsible AI policy](RESPONSIBLE_AI.md) adds explicit operating expectations for permitted use, disclosure, information handling, human review and correction reporting. Read it alongside these research standards; neither document certifies historical outputs or implements every safeguard in software.

@@ -48,6 +48,12 @@ The original HHFinAi work is the implementation: counterfactuals, financial brid
 The wider suite covers nature, transition plans, carbon accounting, sustainable mandates and social/impact finance. **These are supporting workflows, not evidence of completed research in every domain.** [Browse the full capability catalogue](CATALOGUE.md).
 
 
+## Responsible use of AI
+
+AI supports research; people remain accountable for evidence, assumptions and decisions. Verify primary sources, disclose material AI assistance, protect confidential information and retain uncertainty. These workflows do not authorize autonomous trading or certify sustainability or regulatory compliance.
+
+[Read the responsible AI policy](https://github.com/HHFinAi/HHFinAi/blob/main/RESPONSIBLE_AI.md) — practical standards for evidence, disclosure, privacy, human oversight and corrections.
+
 ## Use and limitations
 
 Independent research and educational work, not investment advice, regulatory certification, an audited performance record or an autonomous trading service. The local engines organize and validate research; a human or separately authorized AI host retrieves evidence and performs substantive analysis. Cases and demonstrations carry their own dates and limitations. Material unknowns remain visible.
