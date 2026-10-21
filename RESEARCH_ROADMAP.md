@@ -1,8 +1,22 @@
 # Research development and open questions
 
-**Updated 16 October 2026.** This is a development record, not a scheduled-delivery promise or a claim that missing issuer evidence has been obtained.
+**Updated 21 October 2026.** This is a development record, not a scheduled-delivery promise or a claim that missing issuer evidence has been obtained.
 
 [Selected research](README.md) · [Research standards](RESEARCH_STANDARDS.md)
+
+## Latest public-evidence extension
+
+The [21 October update](RESEARCH_UPDATE_2026-10-21.md) adds five bounded cases, original charts/models and a prospective evaluation register. Background reports guide the thinking process; public primary sources supply factual inputs and independently developed calculations supply the analysis.
+
+| Workstream | New contribution | Next gate |
+|---|---|---|
+| Battery storage | Public cost/efficiency/maintenance evidence; reserve and site-cost hurdle matrix; companion to the existing grid/gas case. | Site quotes, hourly constraints, charging source and contracted resilience benefits; reconcile pre-tax/real conventions before model integration. |
+| Climate / staples | Three-issuer public cost structures; monthly procurement/pricing scenario; accounting-comparability challenge. | Verified procurement, hedge, FX, inventory and pricing inputs; local weather/crop attribution. |
+| Water / waste | Three-issuer operating monitor and three frozen prospective Q3 hypotheses. | Actual first-release outcomes and order/cash conversion; manual evaluation checkpoint 30 November 2026. |
+| Brazil agriculture / nature | Current CONAB forecast decomposition and profit/price/area sensitivities. | Historical regional data, actual harvests, farm/issuer economics, spatial conversion and rights evidence. |
+| Ageing / sovereign finance | Three-country demographic/pension evidence and employment/productivity/indexation experiments. | National rules, healthcare, fiscal/debt dynamics and security-level valuation. |
+
+No independent human review, observed forecast score, measured nature outcome or investment alpha is claimed. The original evidence gates below remain open unless specifically resolved in a dated case update.
 
 ## Research extensions
 

@@ -50,6 +50,12 @@ Separate arithmetic tests, schema/metadata checks, LLM extraction evaluation, hu
 
 An empirical comparison should retain frozen passages, prompts, label provenance, baseline outputs, disagreements and abstentions. Record review time only when actually measured. The October 8 labels were prepared and reviewed by separate assistant sessions; eight canonical fiscal/calendar-period labels differed. Both reference sets and their scoring sensitivity remain visible; independent human adjudication was not performed. Exact model revision and human review time are unavailable. Selection was prospective to the two prompts, not evidence of exclusion from model training. Publish observed failures and corrections; do not invent accuracy or time-saving statistics. A green CI badge is not scientific, commercial or legal validation.
 
+## Prospective research evaluation
+
+Freeze the question, information cutoff, probability or point forecast, outcome definition, comparison baseline and scoring rule before the selected outcome release. Retain both missing outcomes and failed hypotheses. Register first-availability dates and preserve initial releases separately from later restatements. A local hash checks byte changes; it does not authenticate a publication date or prevent a maintainer rewriting history.
+
+The 21 October 2026 operating-hypothesis register starts with three pending outcomes and subjective, uncalibrated assistant probabilities. Its scorer separates coverage from Brier scores and excludes missing observations from the denominator. It does not measure source-extraction accuracy, investment returns or alpha. Three related observations are too few to establish calibration or skill; any future descriptive score must retain that limitation.
+
 ## Stewardship
 
 A proposed request is not an actual engagement. Receipt is not completion; a meeting is not an outcome; a policy statement is not proof of operating change. Attribute only the contribution supported by evidence. Missing public detail does not establish misconduct.
