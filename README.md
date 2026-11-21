@@ -6,6 +6,8 @@ I study how sustainability and technological change affect company economics, fi
 
 **Research focus:** financial materiality · capital allocation · climate and nature · credit and sovereign finance · responsible AI · stewardship
 
+**November 2026 development (draft PRs, NOT merged research):** [AI Power Stack and hourly adequacy](https://github.com/HHFinAi/Sustainability-to-Financial-Materiality-Analysis/pull/4) · [BE/EQIX company bridges and catalyst gates](https://github.com/HHFinAi/Sector-equity-agent/pull/3) · [SAI/MCB hypothetical-cost methodology](https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets/pull/4). These proposed changes use analyst assumptions or fictional fixtures and are not investment conclusions. [Read the November implementation note](RESEARCH_UPDATE_2026-11-21.md).
+
 ## Selected research — start here
 
 **Updated 21 October 2026.** No installation is needed to read the findings. Each case distinguishes evidence, assumptions, analysis and unresolved questions. The latest research uses public primary sources and original calculations; background reports guide analytical thinking, not conclusions. [What changed and what remains unresolved](RESEARCH_UPDATE_2026-10-21.md).
