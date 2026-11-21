@@ -1,10 +1,26 @@
 # Research development and open questions
 
-**Updated 21 October 2026.** This is a development record, not a scheduled-delivery promise or a claim that missing issuer evidence has been obtained.
+**Updated 21 November 2026.** This is a development record, not a scheduled-delivery promise or a claim that missing issuer evidence has been obtained.
 
 [Selected research](README.md) · [Research standards](RESEARCH_STANDARDS.md)
 
-## Latest public-evidence extension
+## November 2026 proposed research extensions (draft PRs)
+
+The 18 November Goldman Sachs Carbonomics note and 19 November Morgan Stanley San Francisco clean-tech/data-centre note informed new **research questions**, not original factual datasets. Proprietary bank PDFs, pages and charts are **not** in the public repositories. Reviewable draft contributions:
+
+| Workstream and PR | Proposed addition | Outstanding investment evidence |
+|---|---|---|
+| [AI Power Stack](https://github.com/HHFinAi/Sustainability-to-Financial-Materiality-Analysis/pull/4) | Existing 120-month grid/gas model extended with synthetic owned-SOFC economics, commissioning-delay sensitivity, capacity screen and a synthetic 24-hour battery/solar energy-adequacy experiment. October scenarios left intact. | Physical N-1 and annual reliability, 8760-hour workload/meteorology, site tariffs, contract scope, SOFC stack-life/service costs, permitting and power ownership. |
+| [BE/EQIX issuer research](https://github.com/HHFinAi/Sector-equity-agent/pull/3) | Two-sector research brief with no supplied primary evidence; strictly fictional shipment-to-cash and development-to-AFFO/share bridges; unverified/unscored catalyst watchlist. | Dated issuer filings, customer and supply contracts, verified plant/phase delivery, site capex, share count, current consensus/price and independent forecast review. |
+| [Solar geoengineering sensitivity](https://github.com/HHFinAi/climate-investment-ai-agent-in-equity-and-bond-markets/pull/4) | Illustrative SAI sulfur/flight-delivery and MCB salt/electricity unit-cost calculations; explicit zero atmospheric CO2 removal, no company revenue, no governance authorization. | Primary peer-reviewed efficacy, geographically heterogeneous impacts, air/sea lifecycle engineering, legal mandate, environmental liability and independent technical challenge. |
+
+All are **draft, unmerged changes**, not published verified issuer research. Mechanical software CI, where present, tests arithmetic and release controls; it does not establish science, contract accuracy, source truth or investment alpha.
+
+**Prioritization:** (1) review AI Power Stack mathematical and source-boundary controls; (2) obtain primary BE/EQIX source packets and synchronized valuation inputs; (3) replace synthetic hourly profiles with site-specific chronological load, resource, outage and reserve data; (4) commission scientific/governance challenge before any geoengineering revenue inference; (5) promote only verified cases into the public selected-research table.
+
+[Full November implementation and limitation note](RESEARCH_UPDATE_2026-11-21.md)
+
+## October public-evidence extension
 
 The [21 October update](RESEARCH_UPDATE_2026-10-21.md) adds five bounded cases, original charts/models and a prospective evaluation register. Background reports guide the thinking process; public primary sources supply factual inputs and independently developed calculations supply the analysis.
 
